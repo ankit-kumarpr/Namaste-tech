@@ -1,0 +1,43 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Demo Hotel",
+      "rooms": [
+        {
+          "id": 1,
+          "roomType": "Maharaja",
+          "available": 5,
+          "price": 2500,
+          "totalRooms": 10,
+          "description": "Spacious Maharaja room with modern amenities"
+        },
+        {
+          "id": 2,
+          "roomType": "Super Deluxe",
+          "available": 8,
+          "price": 3500,
+          "totalRooms": 12,
+          "description": "Premium room with extra comfort"
+        },
+        {
+          "id": 3,
+          "roomType": "Standard",
+          "available": 15,
+          "price": 1500,
+          "totalRooms": 20,
+          "description": "Comfortable standard room"
+        },
+        {
+          "id": 4,
+          "roomType": "Executive Suite",
+          "available": 2,
+          "price": 5000,
+          "totalRooms": 4,
+          "description": "Luxurious suite with premium facilities"
+        }
+      ]
+    }
+  ]
+}
+

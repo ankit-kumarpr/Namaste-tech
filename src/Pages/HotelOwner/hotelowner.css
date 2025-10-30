@@ -1,0 +1,83 @@
+.hotelowner-dashboard {
+  padding: 20px;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.info-box-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  color: white;
+  font-size: 24px;
+}
+
+.info-box-content {
+  flex: 1;
+}
+
+.info-box-text {
+  display: block;
+  font-size: 14px;
+  color: #6c757d;
+  margin-bottom: 5px;
+}
+
+.info-box-number {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.bg-info {
+  background-color: #17a2b8 !important;
+}
+
+.bg-success {
+  background-color: #28a745 !important;
+}
+
+.bg-warning {
+  background-color: #ffc107 !important;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  border-radius: 8px 8px 0 0 !important;
+}
+
+.list-group-item {
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+  padding: 12px 15px;
+  transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+  transform: translateX(5px);
+}
+
+.list-group-item:last-child {
+  border-bottom: none;
+}
